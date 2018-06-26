@@ -12,6 +12,7 @@ SELECT projects.titles, pledges.amount FROM projects
 INNER JOIN pledges
 ON projects.id = pledges.project_id
 
+
 "
 end
 

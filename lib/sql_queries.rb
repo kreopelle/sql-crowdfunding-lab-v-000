@@ -40,7 +40,7 @@ SELECT users.name, SUM(pledges.amount) FROM pledges
 INNER JOIN users
 ON pledges.user_id = users.id
 GROUP BY users.name
-ORDER BY SUM(pledges.amount);
+ORDER BY pledges.amount;
 "
 end
 

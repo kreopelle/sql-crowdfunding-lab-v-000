@@ -19,3 +19,15 @@ INSERT INTO users (name, age) VALUES
 ("Emily", 30),
 ("TJ", 31),
 ("Chloe", 32);
+
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
+("Chester", "film", 2000, "01/15/16", "02/15/16"),
+("The Manhattan Front", "film", 10000, "04/14/16", "04/30/16"),
+("Verspresso", "product", 1500, "03/15/16", "05/15/16"),
+("Francie Pants", "clothing", 5000, "11/06/16", "11/23/16"),
+("Diana Instant Square Camera", "design", 100000, "07/13/16", "08/17/16"),
+("Duo Dual Screen Laptop Monitor", "clothing", 35000, "11/06/16", "11/23/16"),
+("Rise Nitro Cold Brew", "food", 20000, "07/13/16", "08/17/16"),
+("Frushi", "food", 15000, "07/13/16", "08/17/16"),
+("Petit Pixels", "clothing", 6000, "11/06/16", "11/23/16"),
+("Sichuan Chili Crisp", "food", 5000, "07/13/16", "08/17/16");

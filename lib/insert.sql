@@ -1,2 +1,22 @@
 INSERT INTO users (name, age) VALUES
-( )
+("Evan", 13 ),
+("Kayla", 14 ),
+("Hillary", 15 ),
+("Brian", 16 ),
+("Jules", 17),
+("John", 18),
+("Rosemary", 19),
+("Raymond", 20),
+("Dottie", 21),
+("Stormie", 22),
+("Greg", 23),
+("Skye", 24),
+("Gillian", 25),
+("Daniel", 26),
+("Adrian", 27),
+("Cathy", 28),
+("Ian", 29),
+("Emily", 30),
+("TJ", 31),
+("Chloe", 32),
+("Michael", 33);

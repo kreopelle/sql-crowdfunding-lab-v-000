@@ -40,7 +40,7 @@ SELECT users.name, SUM(pledges.amount) FROM users
 INNER JOIN pledges
 ON users.id = pledges.user_id
 GROUP BY (users.name)
-;
+GROUP BY (pledges.amount);
 "
 end
 
